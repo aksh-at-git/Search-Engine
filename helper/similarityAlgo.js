@@ -33,7 +33,7 @@ const responseArrayGenerator = (question, uniquekeywords, IDF, TFIDF_array, magn
                 }
             }
         }
-        if(dotPdt != 0 && parseFloat(magnitude[i]) != 0 && magnitude_TFIDF_vector != 0){
+        if(dotPdt != 0 && parseFloat(magnitude[i - 1]) != 0 && magnitude_TFIDF_vector != 0){
             let similarity = dotPdt / (magnitude_TFIDF_vector * parseFloat(magnitude[i - 1]));
             matchedFileIndexWithSimilarity.push([similarity, i]);
         }
