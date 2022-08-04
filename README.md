@@ -8,3 +8,6 @@ To build the search engine, follow the steps:
 * Run ```npm i``` to download all the required npm packages.
 * Once the text files are ready, run ```node index.js``` to build and start the local server. Once started, open http://localhost:3000/ in a browser.
 * You can now use the search engine to practice a variety of DSA questions of your choice.
+
+##Live Version##
+[Click Here](https://search-engine-dsa.herokuapp.com/) to view the Live page.
